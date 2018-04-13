@@ -1,0 +1,423 @@
+INTRODUCTION TO CLOUD COMPUTING
+
+What is Cloud Computing?
+Cloud computing is the on-demand delivery of compute power, database storage, applications, and other IT resources through a cloud services platform via the internet with pay-as-you-go pricing.
+Cloud Computing Basics
+Whether you are running applications that share photos to millions of mobile users or you’re supporting the critical operations of your business, a cloud services platform provides rapid access to flexible and low cost IT resources. With cloud computing, you don’t need to make large upfront investments in hardware and spend a lot of time on the heavy lifting of managing that hardware. Instead, you can provision exactly the right type and size of computing resources you need to power your newest bright idea or operate your IT department. You can access as many resources as you need, almost instantly, and only pay for what you use.
+Six Advantages and Benefits of Cloud Computing by Amazon
+Trade capital expense for variable expense
+Instead of having to invest heavily in data centers and servers before you know how you’re going to use them, you can only pay when you consume computing resources, and only pay for how much you consume.
+Benefit from massive economies of scale
+By using cloud computing, you can achieve a lower variable cost than you can get on your own. Because usage from hundreds of thousands of customers are aggregated in the cloud, providers such as Amazon Web Services can achieve higher economies of scale which translates into lower pay as you go prices.
+Stop guessing capacity
+Eliminate guessing on your infrastructure capacity needs. When you make a capacity decision prior to deploying an application, you often either end up sitting on expensive idle resources or dealing with limited capacity. With cloud computing, these problems go away. You can access as much or as little as you need, and scale up and down as required with only a few minutes notice.
+Increase speed and agility
+In a cloud computing environment, new IT resources are only ever a click away, which means you reduce the time it takes to make those resources available to your developers from weeks to just minutes. This results in a dramatic increase in agility for the organization, since the cost and time it takes to experiment and develop is significantly lower.
+Stop spending money on running and maintaining data centers
+Focus on projects that differentiate your business, not the infrastructure. Cloud computing lets you focus on your own customers, rather than on the heavy lifting of racking, stacking and powering servers.
+Go global in minutes
+Easily deploy your application in multiple regions around the world with just a few clicks. This means you can provide a lower latency and better experience for your customers simply and at minimal cost.
+
+
+The NIST Definition of Cloud Computing
+NIST is responsible for developing standards and guidelines, including minimum requirements, for providing adequate information security for all agency operations and assets. 
+Cloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction.
+Essential Characteristics:
+1.	On-demand self-service
+A consumer can unilaterally provision computing capabilities, such as server time and network storage, as needed automatically without requiring human interaction with each service provider.
+2.	Broad network access.
+Capabilities are available over the network and accessed through standard mechanisms that promote use by heterogeneous thin or thick client platforms (e.g., mobile phones, tablets, laptops, and workstations)
+3.	Resource pooling
+The provider’s computing resources are pooled to serve multiple consumers using a multi-tenant model, with different physical and virtual resources dynamically assigned and reassigned according to consumer demand. There is a sense of location independence in that the customer generally has no control or knowledge over the exact location of the provided resources but may be able to specify location at a higher level of abstraction (e.g., country, state, or datacenter). Examples of resources include storage, processing, memory, and network bandwidth.
+4.	Rapid elasticity
+Capabilities can be elastically provisioned and released, in some cases automatically, to scale rapidly outward and inward commensurate with demand. To the consumer, the capabilities available for provisioning often appear to be unlimited and can be appropriated in any quantity at any time.
+5.	Measured service
+Cloud systems automatically control and optimize resource use by leveraging a metering capability at some level of abstraction appropriate to the type of service (e.g., storage, processing, bandwidth, and active user accounts). Resource usage can be monitored, controlled, and reported, providing transparency for both the provider and consumer of the utilized service.
+
+Service Models:
+1.	Software as a Service (SaaS)
+The capability provided to the consumer is to use the provider’s applications running on a cloud infrastructure. The applications are accessible from various client devices through either a thin client interface, such as a web browser (e.g., web-based email), or a program interface. The consumer does not manage or control the underlying cloud infrastructure including network, servers, operating systems, storage, or even individual application capabilities, with the possible exception of limited user specific application configuration settings.
+SaaS providers host an application and make it available to users through the internet, usually a browser-based interface. As the most familiar category of cloud computing, users most commonly interact with SaaS applications such as Gmail, Dropbox, Salesforce, or Netflix.
+
+2.	Platform as a Service (PaaS)
+The capability provided to the consumer is to deploy onto the cloud infrastructure consumer-created or acquired applications created using programming languages, libraries, services, and tools supported by the provider.3 The consumer does not manage or control the underlying cloud infrastructure including network, servers, operating systems, or storage, but has control over the deployed applications and possibly configuration settings for the application-hosting environment.
+PaaS solutions appeal to developers who want to spend more time coding, testing, and deploying their applications instead of dealing with hardware-oriented tasks such as managing security patches and operating system updates.
+
+3.	Infrastructure as a Service (IaaS)
+The capability provided to the consumer is to provision
+Processing, storage, networks, and other fundamental computing resources where the consumer is able to deploy and run arbitrary software, which can include operating systems and applications. The consumer does not manage or control the underlying cloud infrastructure but has control over operating systems, storage, and deployed applications; and possibly limited control of select networking components.
+
+IaaS providers deploy and manage pre-configured and virtualized hardware and enable users to spin up virtual machines or computing power without the labor-intensive server management or hardware investments.
+
+Amazon Web Services, for example, offers IaaS through the Elastic Compute Cloud, or EC2. Most IaaS packages cover the storage, networking, servers, and virtualization components, while IaaS customers are usually responsible for installing and maintaining the operating system, databases, security components, and applications.
+
+ 
+
+Deployment Models:
+1.	Private cloud
+The cloud infrastructure is provisioned for exclusive use by a single organization comprising multiple consumers. It may be owned, managed, and operated by the organization, a third party, or some combination of them, and it may exist on or off premises.
+•	A private cloud is dedicated to a single organization.
+•	Private cloud offers hosted services to a limited number of people behind a firewall, so it minimizes the security concerns some organizations have around cloud. Private cloud also gives companies direct control over their data.
+2.	Community Cloud
+The cloud infrastructure is provisioned for exclusive use by a specific community of consumers from organizations that have shared concerns (e.g., mission, security requirements, policy, and compliance considerations). It may be owned, managed, and operated by one or more of the organizations in the community, a third party, or some combination of them, and it may exist on or off premises
+•	A community cloud is a multi-tenant infrastructure that is shared among several organizations from a specific group with common computing concerns.
+•	The community cloud can be either on-premises or off-premises, and can be governed by the participating organizations or by a third-party managed service provider.
+3.	Public Cloud
+The cloud infrastructure is provisioned for open use by the general public. It may be owned, managed, and operated by a business, academic, or government organization, or some combination of them. It exists on the premises of the cloud provider.
+•	Computing resources, such as virtual machines (VMs), applications or storage, available to the general public over the internet.
+•	It reduces the need for organizations to invest in and maintain their own on-premises IT resources.
+•	It enables scalability to meet workload and user demands.
+4.	Hybrid Cloud
+The cloud infrastructure is a composition of two or more distinct cloud infrastructures (private, community, or public) that remain unique entities, but are bound together by standardized or proprietary technology that enables data and application portability (e.g., cloud bursting for load balancing between clouds).
+•	Hybrid cloud is a combination of public and private cloud services, with orchestration between the two.
+
+What is Amazon Web Services?
+Amazon Web Services (AWS) is a secure cloud services platform, offering compute power, database storage, content delivery and other functionality to help businesses scale and grow. Explore how millions of customers are currently leveraging AWS cloud products and solutions to build sophisticated applications with increased flexibility, scalability and reliability.
+Amazon Web Services (AWS) is a subsidiary of Amazon.com that provides on-demand cloud computing platforms to individuals, companies and governments, on a paid subscription basis with a free-tier option available for 12 months. Amazon Web Services was officially launched on March 14, 2006, combining the three initial service offerings of Amazon S3 cloud storage, SQS, and EC2. AWS has more than 70 services including computing, storage, networking, database, analytics, application services, deployment, management, mobile, developer tools, and tools for the Internet of Things. The most popular include Amazon Elastic Compute Cloud (EC2) and Amazon Simple Storage Service (S3).
+AWS Global infrastructure
+The AWS Cloud operates 44 Availability Zones within 16 geographic Regions around the world.
+Region: Region is a collection of availability zones that are geographically located close to one other.  Each region is a separate geographic area. There is no technical definition for AWS Region. Each region has multiple, isolated locations known as Availability Zones and 
+Availability Zone: These are essentially the physical data centers of AWS. This is the place where actual compute, storage, network, and database resources are hosted. A single availability zone is equal to a single data center. Each region will contains minimum of two Availability Zones.
+Edge Locations: Edge locations are CDN endpoints.  Edge locations are located in most of the major cities around the world and are specifically used by CloudFront (CDN) to distribute content to end user to reduce latency. We have 98 Edge locations in 50 cities across 23 countries.
+Amazon CloudFront is a web service that gives businesses and web application developers an easy and cost effective way to distribute content with low latency and high data transfer speeds.
+
+
+Regions and Codes: 
+Region Code	Region Name
+us-east-1	US East (N. Virginia)
+us-east-2	US East (Ohio)
+us-west-1	US West (N. California)
+us-west-2	US West (Oregon)
+ca-central-1	Canada (Central)
+eu-west-1	EU (Ireland)
+eu-central-1	EU (Frankfurt)
+eu-west-2	EU (London)
+ap-northeast-1	Asia Pacific (Tokyo)
+ap-northeast-2	Asia Pacific (Seoul)
+ap-southeast-1	Asia Pacific (Singapore)
+ap-southeast-2	Asia Pacific (Sydney)
+ap-south-1	Asia Pacific (Mumbai)
+sa-east-1	South America (São Paulo)
+us-gov-west-1	AWS GovCloud (US)
+cn-north-1	China (Beijing)
+
+•	AWS GovCloud (US) account provides access to the AWS GovCloud (US) region only.
+•	AWS (China) account provides access to the China (Beijing) region only.
+
+ 
+
+
+Region & Number of Availability Zones
+
+US East
+N. Virginia (6), Ohio (3)
+US West
+N. California (3), Oregon (3)
+Asia Pacific
+Mumbai (2), Seoul (2), Singapore (2), Sydney (3), Tokyo (3)
+Canada
+Central (2)
+China
+Beijing (2)
+Europe
+Frankfurt (3), Ireland (3), London (2)
+South America
+São Paulo (3)
+AWS GovCloud (US-West) (2)
+
+New Region (coming soon)
+Bahrain
+China
+France
+Hong Kong
+Sweden
+AWS GovCloud (US-East)
+
+How to find regions and Availability Zones using the console
+1.	Open the Amazon EC2 console
+2.	From the navigation bar, view the options in the region selector.
+3.	You can switch between the regions and some services are region specific and some are global.
+
+
+
+AWS ACCOUNT CREATION
+
+AWS Account Creation
+1.	Open https://aws.amazon.com/free, and verify the free tier limitations then choose “Create a Free Account”.
+ 
+2.	And Select “Create a new AWS account” option if you want to create a new account, or enter your Email ID if you are an existing user.
+ 
+3.	Enter the required details; AWS Account Name (You can give your name), Email Address and Choose a Password.  Whatever the email ID you are using here is called as “Root” user and this user will have highest privileges on your AWS account.
+
+ 
+
+4.	In this step we have to select “Account type” and need to provide the “Contact information”.
+a.	You can select “Personal Account” as your AWS account type, if you are an individual user.
+b.	You can select “Company Account” if you are creating this account for your organization.
+c.	You have to provide the  required contact Information (i.e; Full Name, Country, Address, City, State, Postal code and Phone Number)
+d.	Click on checkbox for Agree the terms and conditions defined by Amazon.  
+Then select “Create account and continue” button.
+ 
+5.	You have to enter your payment information.  AWS will accept Credit/Debit Card (Visa /Mastercard /Americal express). 
+As part of payment details verification process amazon will deduct INR 2 from your account. However this amount will refunded once your card has been validated. 
+ 
+6.	In Step 6, we have to perform “Identity verification” and to complete this step you need to have a valid Phone number with you. 
+a.	Enter the valid phone number, captcha and press “Call me now” button.
+b.	When you click on call me now option, you will get a 4 digit PIN on your phone and simultaneously you will get a phone call from AWS to the mentioned phone number.
+c.	You have to enter the 4 digit pin number on the IVR call, then your Identity verification is going to complete.
+ 
+7.	After completing the Identity verification, we have to select the “Support Plan” and click on “Continue”. 
+Amazon have 4 support plans, those are
+a.	Basic: No Monthly Pricing for Basic support plan and no option to get technical support from Amazon if you are facing any.
+b.	Developer: Starting at $29/month and one primary contact may ask technical questions through support center and your issue will address within 12-24 hours during local business hours.
+c.	Business: Starting at $100/month and 24x7 access to Cloud Support Engineers via email, chat, and phone. 1 hour response to urgent support cases.  
+d.	Enterprise: Starting at $15,000/month and you will get thee business support plan benefits along with Operational reviews, recommendations, and reporting, Designated Technical Account Manager, Access to online self-paced labs and Assigned Support Concierge. 
+Note: You can change this support plan at any time by logging in with Root account. You can “Support Center” under “support” navigation pane.  Then click on change button and select the required support plan. We can use “Basic Support Plan” to explore the AWS features.
+ 
+8.	We have completed the AWS Account creation process select the “Launch Management Console” and Select “Sign in to the console”
+9.	Now you can enter the Email id and Password to login to your AWS account. 
+
+
+IAM
+(IDENTITY ACCESS MANAGEMENT)
+
+Root User 
+When you first create an Amazon Web Services (AWS) account, you begin with a single sign-in identity that has complete access to all AWS services and resources in the account. This identity is called the AWS account root user and is accessed by signing in with the email address and password that you used to create the account.
+•	The "root account" is simply the account created when first setup your AWS account. It has complete Admin access on your account.
+AWS strongly recommend that you do not use the root user for your everyday tasks, even the administrative ones. Instead of using the root user we can create IAM user and allocates the appropriate permissions for the IAM user.
+
+IAM:
+IAM stands for Identity and Access Management (IAM). IAM is a web service that helps you securely control access to AWS resources for your users. We can use IAM to control who can use our AWS resources and how they can use resources. 
+
+IAM Features:
+•	You can provide Shared Access to your AWS account
+•	You can grant different permissions to different people for different resources. 
+•	IAM allows you to manage users and their level of access to AWS console.
+•	IAM is universal. It does not apply to regions.
+•	You can enable Multi-factor authentication (MFA) for your AWS account
+•	IAM allows you to set up your own password rotation policy
+•	Integrates with many different AWS services
+Steps to Create an IAM user:
+
+1.	Login with the root Account credentials and find the “IAM” under “Security, Identity & Compliance”
+ 
+2.	IAM users have to sign-in using a dedicated Sign-In link. Every AWS account user will get a 12 Digit account number, that 12 digit number will be displayed on the Sign-In link, if you don’t want to expose the account Number you can give an Alias name. For that select the “customize” option in IAM dashboard.
+ 
+•	Alias name must be unique over the globe. 
+3.	To create a new IAM user, Please select “Users” option under IAM Resources and Select “Add User” option.
+ 
+•	We need to provide a “user name” for the newly creating IAM user. This username must be unique with-in your AWS account.
+•	Then you have to select AWS access type. We have two types of the access types
+o	Programmatic access: This Enables the access to your AWS account by AWS API, CLI, SDK, and other development tools. You will get an access key ID and secret access key if you select this access type.
+o	AWS Management Console access: This enables users to sign-in to the AWS Management Console i.e; Web Browser. You will get a username and password to login.
+•	If you select “AWS Management Console access” you have to get a password by “Auto generated password” or “Custom password” option.
+•	You can select the “Require password reset option” tick box if you want IAM user to create a new password at next sign-in.
+4.	By default IAM users will create with NO Permissions. If you want to allocate certain level of permission on any of the AWS resource, you have to attach/apply policy to the user.
+•	You can directly Attach one or more existing policies directly to the users or create a new policy
+•	If you have any existing user with policies you can select the user, same permissions will apply for the newly created user also.
+•	Or, you can create a group allocate the policy on top of the group, then you can add this IAM user to that group. Creating group will eases the administration. 
+5.	To create a group, select the “Create a Group” option and you will get a pop-up to select the policy. You can filter the policies based on your requirement and select. 
+Here is some key policies, you have to remember
+•	AdministratorAccess: Provides full access to AWS services and resources Except Billing and Account management. He can create/delete a IAM user or Groups.
+•	PowerUserAccess: Provides full access to AWS services and resources, but does not allow management of Users and groups. He can launch any resource but doesn’t have any permission to create a new user, group or deleting an existing user.  
+ 
+6.	Review the screen and click on “Create User” option. New IAM user will create and you can send the credentials directly to the user by using “Send Email” option. 
+ 
+7.	You can download the Credentials.csv file and keep it in a secured location. 
+ 
+8.	By using the mentioned IAM sig-in URL, this newly created IAM user can login to AWS console.
+
+Setup own password policy:
+A password policy is a set of rules that define the type of password an IAM user can set.  You can set the password complexity to secure your AWS account from easily guessable passwords.  You can modify the password policy based on the requirement.
+ 
+9.	You need to get all the tick marks in IAM dashboard, then you can consider you are good to go with other services.
+ 
+
+
+S3 (SIMPLE STORAGE SERVICE)
+
+Introduction to S3
+Amazon S3 is one of first services introduced by AWS. Amazon S3 provides developers and IT teams with secure, durable, and highly-scalable cloud storage. Amazon S3 is easy-to-use object storage with a simple web service interface that you can use to store and retrieve any amount of data from anywhere on the web. Amazon S3 also allows you to pay only for the storage you actually use, which eliminates the capacity planning and capacity constraints associated with traditional storage.
+Block storage operates at a lower level, the raw storage device level and manages data as a set of numbered, fixed-size blocks. Object storage or File storage operates at a higher level, the operating system level, and manages data as a named hierarchy of files and folders.
+•	S3 is Object based i.e. allows you to upload, Download, Share files.
+•	All our Objects reside in containers called buckets.
+•	S3 is a universal namespace that means name of your bucket must be unique globally.
+•	Amazon S3 is cloud object storage. Instead of being closely associated with a server, Amazon S3 storage is independent of a server and is accessed over the Internet.
+•	You can create and use multiple buckets; you can have up to 100 per account by default, this is a soft limit, you can increase this at any time by creating a service limit increase ticket with AWS.
+•	File Size can be from 0/1 Byte to 5TB
+•	Single bucket can store an unlimited number of files.
+•	You can create buckets in your nearby region which is located close to a particular set of end users or customers in order to minimize latency.
+•	Or, Create bucket and store data far away from your primary facilities in order to satisfy disaster recovery and compliance needs
+•	Amazon S3 objects are automatically replicated on multiple devices in multiple facilities within a region
+•	Every Amazon S3 object can be addressed by a unique URL i.e; http://mybucket.s3.amazonaws.com/document.doc 
+•	You can access using this URL also 
+https://s3-region.amazonaws.com/uniquebucketName/objectname
+•	Bucket names must be at least 3 and no more than 63 characters long
+•	Bucket names must not be formatted as an IP address (e.g., 192.168.5.4).
+Invalid Bucket Name	Comment
+.myawsbucket	Bucket name cannot start with a period (.).
+myawsbucket.	Bucket name cannot end with a period (.).
+my..examplebucket	There can be only one period between labels
+
+S3 Storage classes:
+S3-Standard – Amazon S3 Standard offers high durability, high availability, low latency, and high performance object storage for general purpose use. 99.99% availability, 99.999999999% durability, stored redundantly across multiple devices in multiple facilities and is designed to sustain the loss of 2 facilities concurrently. 
+S3 - IA (Infrequently Accessed) For data that is accessed less frequently, but requires rapid access when needed. Lower fee than S3, but you are charged a retrieval fee. Min Obj Size is 128Kb.
+•	Lower Price than S3 Standard
+•	Designed for storing less frequently accessed data.
+•	Minimum duration 30 days
+•	Retrieval charges applicable
+Reduced Redundancy Storage - Designed to provide 99.99% durability and 99.99% availability of objects over a given year.  It is most appropriate for derived data that can be easily reproduced, such as image thumbnails.
+Glacier - Amazon Glacier is an extremely low-cost storage service that provides durable, secure, and flexible storage for data archiving and online backup. Storage class offers secure, durable, and extremely low-cost cloud storage for data that does not require real-time access, such as archives and long-term backups.
+•	Archives: In Amazon Glacier, data is stored in archives. An archive can contain up to 40TB of data, and you can have an unlimited number of archives.
+•	Vaults: Vaults are containers for archives. Each AWS account can have up to 1,000 vaults.
+•	After requesting for data three to five hours later, the Amazon Glacier object is copied to Amazon S3 RRS.
+•	Amazon Glacier allows you to retrieve up to 5% of the Amazon S3 data stored in Amazon Glacier for free each month.
+Availability and Durability chart
+ 
+S3 Bucket Creation:
+
+ 
+•	We can Drag & Drop objects to upload the objects. 
+ 
+•	After selection of files, we can give access to other users who required permissions. 
+•	We can Manage Public Permissions or give permissions for other AWS account users. 
+ 
+•	Here we can select the object Properties, We can select the Object storage class of the object, Encryption methods, Metadata and tags for the object. 
+ 
+•	Then we can review and click on upload option to upload the object into S3 bucket.
+
+Versioning
+Versioning helps protects your data against accidental or malicious deletion by keeping multiple versions of each object in the bucket, identified by a unique version ID.
+•	Versioning is turned on at the bucket level. 
+•	Once enabled, versioning cannot be removed from a bucket; it can only be suspended.
+•	If you enable versioning you will get Current version files and previous version files in your bucket.
+•	If you delete current version file, if will overwrite with a Delete Marker, if you want to get that object back to you S3 bucket, you can delete the delete marker.
+To enable versioning on bucket, navigate to properties of the respective bucket and select versioning and select “Enable versioning” option.
+ 
+
+Lifecycle Management
+By using Life cycle management we can automate the storage tiers in s3 buckets.
+We can move objects from one storage class/tier to another storage class/tier based on our business requirements.
+Here is the possible scenarios:
+S3-Standard  S3-IA  Glacier  Delete
+S3-Standard  Glacier  Delete
+S3-Standard  Delete
+Steps to enable lifecycle management rules:
+•	Select the S3 bucket which we want to add life cycle rule.
+•	Go to management option after selecting the bucket.
+ 
+•	Select Add Lifecycle rule and then give a valid name for the life cycle rule. We can add prefix, If LC rule will apply to the entire buckets objects.
+ 
+•	After entering “name and scope” we need to configure the transitions. We can configure transitions for current version and previous versions. Click “add transition” and enter the days count from “Object creation”. 
+ 
+
+•	For S3-IA We need to store the object for minimum of 30 days and for Glacier 60 days from object creation date.
+ 
+•	In Next step we can configure object expirations. 
+•	For current version Expiration creates a Delete Marker if Versioning is enabled on this bucket.
+•	For Previous version object will delete permanently. 
+ 
+
+•	This is the review status for the lifecycle rule that we have created.  Review the Lifecycle rule and click on “Save”, Created lifecycle rule will apply on bucket.
+ 
+
+Logging
+By enabling logs we can track requests on our Amazon S3 bucket. Logging is off by default. You can enable it from bucket properties.
+Every log will contains the below information
+•	Requestor account and IP address
+•	Bucket name
+•	Request time
+•	Action (GET, PUT, LIST, and so forth)
+•	Response status or error code
+ 
+
+
+
+Cross-Region Replication:
+With Cross-region replication Amazon S3 allows you to asynchronously replicate all new objects in the source bucket in one AWS region to a target bucket in another region.
+•	Versioning must be enabled on both the source and destination buckets. 
+•	Regions must be unique
+•	Files in an existing bucket are not replicated automatically. All subsequent/future updated files will be replicated automatically. 
+•	You cannot replicate to multiple buckets or use daisy chaining (at this time). 
+•	Delete markers are replicated. 
+•	Deleting individual versions or delete markers will not be replicated.
+•	Cross-region replication is used to reduce the latency required to access objects in Amazon S3 by placing objects closer to a set of users or to meet requirements to store backup data at a certain distance from the original source data.
+•	Amazon S3 must have permission to replicate objects from that source bucket to the destination bucket on your behalf. 
+o	You can grant these permissions by creating an IAM role that Amazon S3 can assume.
+
+Steps to enable cross region replication:
+•	Select S3 bucket that you want to replicate, Select Replication option under Management. 
+ 
+•	We can replicate the entire bucket or we can use particular prefixes  (i.e; all objects that have names that begin with the string pictures)
+
+ 
+•	On the Destination tab, under Destination bucket, select destination bucket for the replication. You can choose a destination bucket from same account or we can choose to create new bucket, or else we can replicate the data to a destination bucket from a different AWS account.
+ 
+•	Give a valid name for the replication rule
+•	We can change the object storage class for the destination bucket, if required.
+ 
+
+•	We have to create an IAM role for replication. Role is “s3crr_role_for_source_to _destination”
+ 
+•	Review anc click on save to activate the cross region replication on the bucket. 
+ 
+•	After you save your rule, you can edit, enable, disable, or delete your rule on the Replication page.
+ 
+
+Static Website Hosting
+We can host a static website on Amazon Simple Storage Service.
+•	We need to create a bucket with the same name as the desired website hostname.
+•	Upload the static files to the bucket (Index.html and error.html).
+•	Make all the files public, then only website will be readable for all the world.
+•	Go to Properties of the bucket and Enable static website hosting for the bucket. And mention the specifying an Index.html and an Error.html.
+•	The website will now be available at the S3 website URL: <bucket-name>.s3-website-<AWS-region>.amazonaws.com.
+•	We have to create a DNS record in Route53 with purchased Domain name, then all the requests to the domain name will point to S3 bucket.
+•	If required, We can redirect the requests to another bucket also.
+ 
+
+Tags:
+Tags are combination of keys & values. Each tag is a simple label consisting of a customer-defined key and an optional value that can make it easier to manage, search for, and filter resources.
+We can add tags under S3 bucket properties tab.
+ 
+
+
+Amazon S3 Transfer Acceleration:
+Amazon S3 Transfer Acceleration enables fast, easy, and secure transfers of files over long distances between your client and an S3 bucket. Transfer Acceleration takes advantage of Amazon CloudFront’s globally distributed edge locations. As the data arrives at an edge location, data is routed to Amazon S3 over an optimized network path. Additional data transfer charges will apply for this tool.
+•	By Using the Amazon S3 Transfer Acceleration Speed Comparison Tool we can compare the accelerated and non-accelerated upload speeds across Amazon S3 regions.
+•	The Speed Comparison tool uses multipart uploads to transfer a file from your browser to various Amazon S3 regions with and without using Transfer Acceleration.
+You can enable the Transfer acceleration option under S3 Bucket Properties.
+ 
+Here is a sample result for Transfer acceleration result.
+
+ 
+Events
+Amazon S3 event notifications can be sent in response to actions taken on objects uploaded or stored in Amazon S3. The Amazon S3 notification feature enables you to receive notifications when certain events happen in your bucket.
+•	Notification messages can be sent through either Amazon Simple Notification Service or Amazon Simple Queue Service or delivered directly to AWS Lambda to invoke AWS Lambda functions. 
+Here is an example to enable Notifications through SNS
+•	To set event notifications via SNS, Go to services àMessagingàSNS. In SNS dashboard, we have to create topic.
+
+ 
+After creating topic, we have to update the topic policy. Next we can give email id for subscription of notifications. Once we select confirm option from email id then that email got subscribed for event notifications
+ 
+•	Now Go to Properties of S3 bucket and select Events àAdd notificationàgive event nameàselect Eventsàselect SNS topic and select save option.
+•	We can select the Event type to get notified through the Email.
+ 
+
+•	When the selected action performed on S3 bucket, Subscribed users to that topic will get a notification.
+
+Inventory:
+Amazon S3 inventory is one of the tools Amazon S3 provides to help manage your storage. Amazon S3 inventory provides a comma-separated values (CSV) flat-file output of your objects and their corresponding metadata on a daily or weekly basis for an S3 bucket or a shared prefix.
+Requester pays
+Generally, bucket owners pay for all Amazon S3 storage and data transfer costs associated with their bucket. If you enable Requester pays on the bucket, instead of bucket owner requested user will pay. 
+•	anonymous access to that bucket is not allowed, if we want to enable the requester pays on bucket.
+
+Encryption:
+We have three types of encryptions available in S3
+1.	Server-Side Encryption: All SSE performed by Amazon S3 and AWS Key Management Service (Amazon KMS) uses the 256-bit Advanced Encryption Standard (AES).
+•	SSE-S3 (AWS-Managed Keys)
+•	SSE-KMS (AWS KMS Keys)
+•	SSE-C (Customer-Provided Keys)
+2.	Client-Side Encryption: We can encrypt the data on the client before sending it to Amazon S3. We have to take care about the encryption and Decryption process.
+3.	In-Transit Encryption
+•	We can use SSL API endpoints, this ensures that all data sent to and from Amazon S3 is encrypted while in transit using the HTTPS protocol.
+
